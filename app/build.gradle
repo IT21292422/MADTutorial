@@ -7,6 +7,8 @@ android {
     namespace 'com.example.tutorial4'
     compileSdk 33
 
+    compileSdkPreview "UpsideDownCake"
+
     defaultConfig {
         applicationId "com.example.tutorial4"
         minSdk 19
@@ -15,6 +17,7 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        targetSdkPreview "UpsideDownCake"
     }
 
     buildTypes {
